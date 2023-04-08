@@ -47,4 +47,20 @@ body {
     color: #616161;
 }
 
+.wrapper{
+overflow: hidden;
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+
 /* ------------------ */
+
+[class*="__container"]{
+    max-width: 1075px;
+    margin: 0 auto;
+}
+.main{
+    /* позволят отправлять Футер вниз*/
+    flex: 1 1 auto;
+}
